@@ -1,6 +1,6 @@
 package org.example.dz3_2_1;
 
-public class If {
+public class dz3_2 {
     public static void main(String [] args) {
         int sum = 0;
         int count = 0;
