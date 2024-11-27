@@ -2,10 +2,8 @@ package org.example.dz5;
 
 import java.util.Scanner;
 
-public class dninedeli {
-
-
-    public static String daysnedeli(int number) {
+public class DaysWeeks {
+    public static String daysWeeks(int number) {
         return switch (number) {
             case 1 -> "Понедельник";
             case 2 -> "Вторник";
@@ -23,7 +21,7 @@ public class dninedeli {
         while (true) {
             System.out.print("Введите число (от 1 до 7): ");
             int number = scanner.nextInt();
-            System.out.println(daysnedeli(number));
+            System.out.println(daysWeeks(number));
 
             System.out.print("Хотите ввести еще одно число? (да/нет): ");
             String again = scanner.next().trim().toLowerCase();
@@ -35,4 +33,3 @@ public class dninedeli {
         scanner.close();
     }
 }
-
